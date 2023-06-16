@@ -9,5 +9,5 @@ st.video("https://www.youtube.com/watch?v=SaCheA6Njc4")
 st.image("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg")
 st.video("https://i.imgur.com/nRZciOB.mp4")
 st.image("image/cat.jpeg",use_column_width=True)
-st.image("image/cat.jpeg", width=)
-st.image("image/cat.jpeg",channels="BGR")
+cat_img = st.image("image/cat.jpeg", width=300, caption="고양이")
+
